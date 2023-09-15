@@ -15,4 +15,14 @@ export default defineApp({
  supportsConnections: false,
  primaryColor: '000000',
  actions: actions,
+ arguments: [
+    {
+      label: 'String',
+      key: 'string',
+      type: 'string' as const,
+      required: true,
+      description: 'The string you want to compose.',
+      variables: true,
+    },
+],
 });
