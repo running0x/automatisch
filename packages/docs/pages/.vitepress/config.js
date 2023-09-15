@@ -33,6 +33,15 @@ export default defineConfig({
     sidebar: {
       '/apps/': [
         {
+          text: 'Citymatch Compose String',
+          collapsible: true,
+          collapsed: true,
+          items: [
+            { text: 'Actions', link: '/apps/deepl/actions' },
+            { text: 'Connection', link: '/apps/deepl/connection' },
+          ],
+        },
+        {
           text: 'DeepL',
           collapsible: true,
           collapsed: true,
