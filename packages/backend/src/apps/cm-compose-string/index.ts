@@ -10,7 +10,7 @@ function removeFirstHalf(input: string): string {
 // App definition
 export default defineApp({
  name: 'Citymatch Compose String',
- key: 'cm-Compose-String',
+ key: 'cm-compose-string',
  iconUrl: '{BASE_URL}/apps/stringProcessor/assets/favicon.svg',
  supportsConnections: false,
  primaryColor: '000000',
