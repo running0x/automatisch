@@ -37,8 +37,7 @@ export default defineConfig({
           collapsible: true,
           collapsed: true,
           items: [
-            { text: 'Actions', link: '/apps/deepl/actions' },
-            { text: 'Connection', link: '/apps/deepl/connection' },
+            { text: 'Actions', link: '/apps/cm-compose-string/actions' },
           ],
         },
         {

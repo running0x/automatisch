@@ -1,4 +1,5 @@
 import defineApp from '../../helpers/define-app';
+import actions from './actions';
 
 // Function to remove the first half of a string
 function removeFirstHalf(input: string): string {
@@ -13,4 +14,5 @@ export default defineApp({
  iconUrl: '{BASE_URL}/apps/stringProcessor/assets/favicon.svg',
  supportsConnections: false,
  primaryColor: '000000',
+ actions: actions,
 });
