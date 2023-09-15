@@ -37,7 +37,7 @@ export default defineConfig({
           collapsible: true,
           collapsed: true,
           items: [
-            { text: 'Actions', link: '/apps/cm-compose-string/actions' },
+            { text: 'Actions', link: '/apps/citymatch-compose-string/actions' },
           ],
         },
         {
