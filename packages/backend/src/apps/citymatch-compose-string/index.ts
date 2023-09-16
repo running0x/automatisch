@@ -12,7 +12,7 @@ export default defineApp({
  name: 'Citymatch Compose String',
  key: 'citymatch-compose-string',
  iconUrl: '{BASE_URL}/apps/stringProcessor/assets/favicon.svg',
- supportsConnections: false,
+ supportsConnections: true,
  primaryColor: '000000',
  actions: actions,
  arguments: [

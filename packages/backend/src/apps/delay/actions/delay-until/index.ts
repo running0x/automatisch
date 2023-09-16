@@ -18,7 +18,6 @@ export default defineAction({
 
   async run($) {
     const { delayUntil } = $.step.parameters;
-
     const dataItem = {
       delayUntil,
     };
