@@ -6,7 +6,7 @@ import actions from './actions';
 import triggers from './triggers';
 
 export default defineApp({
-  name: 'Discord',
+  name: 'Dicccscord',
   key: 'discord',
   iconUrl: '{BASE_URL}/apps/discord/assets/favicon.svg',
   authDocUrl: 'https://automatisch.io/docs/apps/discord/connection',
