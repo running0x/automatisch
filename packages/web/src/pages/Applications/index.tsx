@@ -27,6 +27,7 @@ export default function Applications(): React.ReactElement {
   const { data, loading } = useQuery(GET_CONNECTED_APPS, {
     variables: { name: appName },
   });
+  console.log('testing 123');
 
   const apps: IApp[] = data?.getConnectedApps;
   const hasApps = apps?.length;
